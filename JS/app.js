@@ -3,7 +3,7 @@ const completedTodos = []
 
 for (word in TodoList) {
     if (TodoList[word] === "complete") {
-        completedTodos.push(TodoList.todo)
+        completedTodos.push(TodoList)
     }
 }
 
