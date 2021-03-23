@@ -1,1 +1,3 @@
-// your JavaScript goes here, you can delete this comment
+const TodoList = { todo: "clone repo for starter code", status:"complete" }
+const completedTodos = {}
+
