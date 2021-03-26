@@ -1,4 +1,5 @@
-const TodoList = [{todo: "clone repo for starter code"}, {status:"complete"}]
+const TodoList = [{todo:"clone repo for starter code",status:"complete"},
+                {todo:"clean up repo", status:"started"}]
 const completedTodos = []
 
 
