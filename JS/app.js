@@ -3,11 +3,12 @@ const TodoList = [{todo:"clone repo for starter code",status:"complete"},
 const completedTodos = []
 
 
-for (word in TodoList) {
-    if (TodoList[word] === TodoList[0]) {
-        completedTodos.push(TodoList[0])
+for (const element of Object.values(TodoList)) {
+    if (element.status === 'complete') {
+        completedTodos.push(element)
     }
 }
+
 
 for (word in completedTodos) {
     const [{todo}] = completedTodos
