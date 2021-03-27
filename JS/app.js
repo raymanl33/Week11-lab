@@ -4,17 +4,13 @@ const completedTodos = []
 
 
 for (word in TodoList) {
-    if (TodoList[word] === TodoList[1]) {
-        completedTodos.push(TodoList[0], TodoList[1])
+    if (TodoList[word] === TodoList[0]) {
+        completedTodos.push(TodoList[0])
     }
 }
-
 
 for (word in completedTodos) {
-    if (completedTodos[word] === completedTodos[1]) {
-        const [{todo}] = completedTodos
-        console.log(todo)
-    }
+    const [{todo}] = completedTodos
+    console.log(todo)
 }
-
 
